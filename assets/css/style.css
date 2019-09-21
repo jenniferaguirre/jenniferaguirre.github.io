@@ -1,0 +1,54 @@
+.header { 
+    width: 100%;
+    background-color:white;
+
+}
+h1 {
+    float:left;
+    background-color: #4aaaa5;
+    padding: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+ul{ 
+    float: right;
+    overflow: auto;
+}
+
+li { 
+    display: inline;
+    
+
+}
+
+.Content {
+    clear: both;
+    background-color: beige;
+    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+
+}
+
+
+body {
+    background-color: rgb(221, 255, 255);
+    padding: 100px;
+
+}
+
+img{
+    float: left;
+}
+
+.footer{ 
+    background-color:#666666;
+    clear: both;
+    padding: 10px;
+
+
+
+}
