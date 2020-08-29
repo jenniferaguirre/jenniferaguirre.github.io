@@ -4,6 +4,9 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/galapagos.webp");
+    position: fixed;
+width: 100%;
+z-index: 10;
     background-size: cover;
   }
   
@@ -36,7 +39,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: dodgerblue;
   }
   
   h1 {
@@ -62,6 +65,21 @@ body {
     color: #ffffff;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+  }
+  
+  #logo {
+ 
+  
+    width: 40%;
+    height: 40%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color:dodgerblue;
+    text-align: center;
+ 
+   
   }
   
   nav {
