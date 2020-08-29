@@ -3,7 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("../images/galapagos.webp");
+    background-size: cover;
   }
   
   * {
@@ -13,7 +14,7 @@ body {
   /* general */
   
   .container {
-    width: 100%;
+  
     max-width: 960px;
     margin: 0 auto;
     clear: both;
@@ -61,20 +62,6 @@ body {
     color: #ffffff;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
-  }
-  
-  #logo {
-    float: left;
-    width: 250px;
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    background: #4aaaa5;
   }
   
   nav {
@@ -216,3 +203,41 @@ body {
     border: 0 none;
   }
   
+
+
+  /*contact*/
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
